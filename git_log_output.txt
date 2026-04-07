@@ -1,0 +1,59 @@
+commit c0251c9e7b8c690394b94c410270940374a041d2
+Author: Mohak0140 <mohaknahata0014@gmail.com>
+Date:   Tue Mar 31 19:36:25 2026 +0530
+
+    feat: implement full-stack analytics dashboard and LSTM-based congestion inference system
+
+ Tools/define_graph.py            |   263 +
+ Tools/define_zones.py            |   354 +
+ Tools/generate_synthetic_data.py |   454 +
+ app.py                           |   325 +
+ data/logs/evacuation_system.log  | 22469 +++++++++++++++++++++++++++++++++++++
+ data/venue_graph.json            |   103 +
+ data/zones.json                  |    34 +
+ diag_lstm.py                     |    31 +
+ diag_out.txt                     |     8 +
+ download_video.py                |    92 +
+ models/lstm_config.json          |    34 +
+ models/lstm_scaler.pkl           |   Bin 0 -> 639 bytes
+ out.txt                          |     2 +
+ src/__init__.py                  |     0
+ src/congestion.py                |   386 +
+ src/features.py                  |   402 +
+ src/pathplanning.py              |   479 +
+ src/pipeline.py                  |   396 +
+ static/css/dashboard.css         |   400 +
+ static/images/floormap.png       |   Bin 0 -> 45559 bytes
+ static/js/dashboard.js           |   265 +
+ templates/analytics.html         |   204 +
+ templates/dashboard.html         |   100 +
+ test_pipeline.py                 |   272 +
+ tests/phase6_test.py             |   243 +
+ utils/__init__.py                |     0
+ utils/logger.py                  |    39 +
+ utils/visualizer.py              |   440 +
+ 28 files changed, 27795 insertions(+)
+
+commit 4499bc8b8dea02fdb9fe53b33e9560bd5e16284c
+Author: Mohak0140 <mohaknahata0014@gmail.com>
+Date:   Tue Mar 31 19:34:36 2026 +0530
+
+    feat: implement YOLOv8 detection and ByteTrack multi-person tracking
+
+ src/detection.py | 134 ++++++++++++++++++++
+ src/tracking.py  | 121 ++++++++++++++++++
+ src/zones.py     | 365 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 620 insertions(+)
+
+commit 00f970a102b16167091969ad61596f6f6a275ba3
+Author: Mohak0140 <mohaknahata0014@gmail.com>
+Date:   Sun Mar 29 12:32:09 2026 +0530
+
+    chore: initialize project architecture and base configuration
+
+ .gitignore          |  30 ++++++++++++++
+ GITHUB_PUSH_PLAN.md |  85 ++++++++++++++++++++++++++++++++++++++
+ README.md           | 117 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ config.py           |  88 +++++++++++++++++++++++++++++++++++++++
+ requirements.txt    |  40 ++++++++++++++++++
+ 5 files changed, 360 insertions(+)
