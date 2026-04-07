@@ -22467,6 +22467,7 @@ Feature names unseen at fit time:
   Nodes : 7 (exit_left, zone_left, corridor_left, center, corridor_right, zone_right, exit_right)
   Edges : 6
 2026-03-29 12:21:13 | INFO     | src.pipeline | Pipeline components initialized | frame=960x540
+<<<<<<< HEAD
 2026-04-08 00:30:34 | INFO     | src.pipeline | Pipeline started | source: C:\Users\PC\Downloads\evacuation-system_current\evacuation-system\data\videos\sample_crowd.mp4
 2026-04-08 00:30:34 | INFO     | __main__ | Starting dashboard at http://0.0.0.0:5000
 2026-04-08 00:30:34 | INFO     | src.zones | Loaded 2 zones from C:\Users\PC\Downloads\evacuation-system_current\evacuation-system\data\zones.json
@@ -22486,3 +22487,5 @@ Feature names unseen at fit time:
   Edges : 6
 2026-04-08 00:30:40 | INFO     | src.pipeline | Pipeline components initialized | frame=960x540
 2026-04-08 00:33:31 | INFO     | src.pipeline | Video ended — looping
+=======
+>>>>>>> c0251c9e7b8c690394b94c410270940374a041d2
