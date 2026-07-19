@@ -87,6 +87,7 @@ class PersonDetector:
 
         # Convert to supervision Detections
         detections = sv.Detections.from_ultralytics(results)
+        print(f"YOLO detected {len(detections)} persons")
 
         # Filter to person class only (safety check)
         if len(detections) > 0:

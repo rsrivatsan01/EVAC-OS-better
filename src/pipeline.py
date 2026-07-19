@@ -204,7 +204,9 @@ class EvacuationPipeline:
 
             # ── Core pipeline ──────────────────
             detections  = self.detector.detect(frame)
+            print("Detections:", len(detections))
             tracked     = self.tracker.update(detections)
+            print("Tracked:", len(tracked))
             self.zone_manager.update_counts(tracked)
             features    = self.extractor.update(tracked, frame_idx)
             predictions = self.predictor.predict(features)

@@ -84,6 +84,12 @@ class PersonTracker:
         # Update ByteTrack with new detections
         tracked = self.tracker.update_with_detections(detections)
 
+        print(
+        f"Frame {self.frame_count}: "
+        f"{len(detections)} detections -> "
+        f"{len(tracked)} tracks"
+    )
+
         # Update active ID sets for statistics
         if tracked.tracker_id is not None:
             current_ids = set(tracked.tracker_id.tolist())

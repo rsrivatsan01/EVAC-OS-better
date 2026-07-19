@@ -321,9 +321,10 @@ class ZoneManager:
             else                  → CRITICAL
         """
         ratio = count / max(capacity, 1)
-        if count < CONGESTION_SAFE:
+
+        if ratio < 0.50:
             return STATUS_SAFE
-        elif count < CONGESTION_MODERATE:
+        elif ratio < 0.90:
             return STATUS_MODERATE
         else:
             return STATUS_CRITICAL

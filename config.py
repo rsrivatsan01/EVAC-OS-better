@@ -31,16 +31,16 @@ SAMPLE_VIDEO_PATH = os.path.join(VIDEO_DIR, "sample_crowd.mp4")
 REALTIME_SOURCE = 0
 
 # ── Detection Parameters ──────────────────────
-DETECTION_CONFIDENCE    = 0.4    # Minimum YOLO confidence threshold
+DETECTION_CONFIDENCE    = 0.25    # Minimum YOLO confidence threshold
 DETECTION_IOU           = 0.5    # NMS IoU threshold
 PERSON_CLASS_ID         = 0      # COCO class ID for 'person'
 TARGET_FRAME_WIDTH      = 1280   # Resize input frames to this width
 TARGET_FRAME_HEIGHT     = 720
 
 # ── Tracking Parameters ───────────────────────
-TRACK_THRESHOLD         = 0.5    # ByteTrack detection threshold
+TRACK_THRESHOLD         = 0.25    # ByteTrack detection threshold
 TRACK_BUFFER            = 30     # Frames to keep lost tracks alive
-MATCH_THRESHOLD         = 0.8    # IoU match threshold for ByteTrack
+MATCH_THRESHOLD         = 0.7    # IoU match threshold for ByteTrack
 FRAME_RATE              = 25     # Expected FPS of input video
 
 # ── Zone / Exit Configuration ─────────────────
@@ -73,7 +73,7 @@ VENUE_GRAPH_NODES = ["Entrance", "Corridor_A", "Corridor_B", "Hall_Center",
 
 # ── Flask Dashboard ───────────────────────────
 FLASK_HOST              = "0.0.0.0"
-FLASK_PORT              = 5000
+FLASK_PORT              = 5001
 FLASK_DEBUG             = False
 VIDEO_STREAM_FPS        = 15     # FPS for MJPEG stream to browser
 
