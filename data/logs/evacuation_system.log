@@ -22489,3 +22489,414 @@ Feature names unseen at fit time:
 2026-04-08 00:33:31 | INFO     | src.pipeline | Video ended — looping
 =======
 >>>>>>> c0251c9e7b8c690394b94c410270940374a041d2
+2026-07-19 22:15:38 | INFO     | src.pipeline | Pipeline started | source: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 22:15:38 | INFO     | __main__ | Starting dashboard at http://0.0.0.0:5000
+2026-07-19 22:15:38 | ERROR    | src.pipeline | Video file not found: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 22:15:40 | INFO     | src.pipeline | Pipeline started | source: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 22:15:40 | INFO     | __main__ | Starting dashboard at http://0.0.0.0:5000
+2026-07-19 22:15:40 | ERROR    | src.pipeline | Video file not found: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 22:19:00 | INFO     | src.pipeline | Pipeline started | source: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 22:19:00 | INFO     | __main__ | Starting dashboard at http://0.0.0.0:5000
+2026-07-19 22:20:26 | INFO     | src.pipeline | Pipeline started | source: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 22:20:26 | INFO     | __main__ | Starting dashboard at http://0.0.0.0:5000
+2026-07-19 22:23:39 | INFO     | src.pipeline | Pipeline started | source: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 22:23:39 | INFO     | __main__ | Starting dashboard at http://0.0.0.0:5001
+2026-07-19 22:23:40 | INFO     | src.zones | Loaded 2 zones from /Users/macuser/Project/Evacuation/EVAC-OS-better/data/zones.json
+2026-07-19 22:23:40 | WARNING  | src.detection | Fine-tuned weights not found at: /Users/macuser/Project/Evacuation/EVAC-OS-better/models/yolov8_person.pt
+Falling back to pretrained: yolov8n.pt
+2026-07-19 22:23:41 | INFO     | src.detection | PersonDetector ready | conf=0.4 | iou=0.5
+2026-07-19 22:23:41 | INFO     | src.tracking | PersonTracker (ByteTrack) ready | threshold=0.5 | buffer=30 frames
+2026-07-19 22:23:41 | INFO     | src.features | CSV logging → /Users/macuser/Project/Evacuation/EVAC-OS-better/data/logs/features_log.csv
+2026-07-19 22:23:41 | INFO     | src.features | CSV logging → /Users/macuser/Project/Evacuation/EVAC-OS-better/data/logs/global_features_log.csv
+2026-07-19 22:23:41 | INFO     | src.features | FeatureExtractor ready | frame=2320x1080 | zones=2 | csv_logging=True
+2026-07-19 22:23:41 | WARNING  | src.congestion | LSTM model files missing: ['model']
+  Run the Phase 6 Colab notebook to train the model.
+  Falling back to rule-based congestion status.
+2026-07-19 22:23:41 | INFO     | src.pathplanning | Venue graph loaded: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/venue_graph.json
+  Nodes : 7 (exit_left, zone_left, corridor_left, center, corridor_right, zone_right, exit_right)
+  Edges : 6
+2026-07-19 22:23:41 | INFO     | src.pipeline | Pipeline components initialized | frame=2320x1080
+2026-07-19 22:23:56 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:24:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:24:23 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:24:36 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:24:49 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:25:02 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:25:15 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:25:28 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:25:41 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:25:54 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:26:07 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:26:20 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:26:33 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:26:46 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:26:59 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:27:12 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:27:25 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:27:38 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:27:51 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:28:04 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:28:17 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:28:29 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:28:42 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:28:55 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:29:08 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:29:21 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:29:34 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:29:48 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:30:01 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:30:14 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:30:27 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:30:40 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:30:53 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:31:06 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:31:19 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:31:32 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:31:45 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:31:58 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:32:11 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:32:24 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:32:37 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:32:50 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:33:03 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:33:16 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:33:29 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:33:42 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:33:55 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:34:08 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:34:21 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:34:34 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:34:47 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:35:00 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:35:13 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:36:38 | INFO     | src.pipeline | Pipeline started | source: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 22:36:38 | INFO     | __main__ | Starting dashboard at http://0.0.0.0:5001
+2026-07-19 22:36:38 | INFO     | src.zones | Loaded 2 zones from /Users/macuser/Project/Evacuation/EVAC-OS-better/data/zones.json
+2026-07-19 22:36:38 | WARNING  | src.detection | Fine-tuned weights not found at: /Users/macuser/Project/Evacuation/EVAC-OS-better/models/yolov8_person.pt
+Falling back to pretrained: yolov8n.pt
+2026-07-19 22:36:38 | INFO     | src.detection | PersonDetector ready | conf=0.4 | iou=0.5
+2026-07-19 22:36:38 | INFO     | src.tracking | PersonTracker (ByteTrack) ready | threshold=0.5 | buffer=30 frames
+2026-07-19 22:36:38 | INFO     | src.features | CSV logging → /Users/macuser/Project/Evacuation/EVAC-OS-better/data/logs/features_log.csv
+2026-07-19 22:36:38 | INFO     | src.features | CSV logging → /Users/macuser/Project/Evacuation/EVAC-OS-better/data/logs/global_features_log.csv
+2026-07-19 22:36:38 | INFO     | src.features | FeatureExtractor ready | frame=2320x1080 | zones=2 | csv_logging=True
+2026-07-19 22:36:38 | WARNING  | src.congestion | LSTM model files missing: ['model']
+  Run the Phase 6 Colab notebook to train the model.
+  Falling back to rule-based congestion status.
+2026-07-19 22:36:38 | INFO     | src.pathplanning | Venue graph loaded: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/venue_graph.json
+  Nodes : 7 (exit_left, zone_left, corridor_left, center, corridor_right, zone_right, exit_right)
+  Edges : 6
+2026-07-19 22:36:38 | INFO     | src.pipeline | Pipeline components initialized | frame=2320x1080
+2026-07-19 22:36:51 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:37:04 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:37:17 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:37:30 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:37:44 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:37:57 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:38:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:38:23 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:38:36 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:38:49 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:39:02 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:39:14 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:39:27 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:39:40 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:39:53 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:40:06 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:40:19 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:40:32 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:40:45 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:40:58 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:41:11 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:41:24 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:41:37 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:41:50 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:42:03 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:42:16 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:42:29 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:42:42 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:42:55 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:43:08 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:43:21 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:43:34 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:43:47 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:44:00 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:44:13 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:44:26 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:44:39 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:44:52 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:45:05 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:45:18 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:45:31 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:45:44 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:45:57 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:46:10 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:46:23 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:46:36 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:46:49 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:47:02 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:47:15 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:47:28 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:47:41 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:47:54 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:48:07 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:48:20 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:48:33 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:48:46 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:48:59 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:49:12 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:49:25 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:49:38 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:49:51 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:50:04 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:50:17 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:50:30 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:50:43 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:50:56 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:51:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:51:22 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:51:35 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:51:48 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:52:01 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:52:14 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:52:27 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:52:40 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:52:53 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:53:06 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:53:19 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:53:32 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:53:45 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:53:58 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:54:11 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:54:24 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:54:37 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:54:50 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:55:03 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:55:16 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:55:29 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:55:42 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:55:55 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:56:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:56:22 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:56:35 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:56:48 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:57:01 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:57:14 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:57:27 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:57:40 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:57:53 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:58:06 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:58:19 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:58:32 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:58:45 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:58:58 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:59:11 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:59:24 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:59:37 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 22:59:50 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:00:03 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:00:16 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:00:30 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:00:43 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:00:56 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:01:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:01:22 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:01:35 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:01:48 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:02:01 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:02:14 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:02:27 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:02:40 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:02:53 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:03:06 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:03:19 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:03:32 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:03:45 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:03:58 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:04:11 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:04:24 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:04:37 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:04:50 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:05:03 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:05:16 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:05:29 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:05:42 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:05:56 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:06:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:06:22 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:06:35 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:06:48 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:07:01 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:07:14 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:07:27 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:07:40 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:07:53 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:08:06 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:08:19 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:08:32 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:08:45 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:08:58 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:09:11 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:09:25 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:09:38 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:09:51 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:10:04 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:10:17 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:10:30 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:10:43 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:10:56 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:11:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:11:22 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:11:35 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:11:48 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:12:01 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:12:14 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:12:27 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:12:40 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:12:53 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:13:06 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:13:19 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:13:32 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:13:45 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:13:58 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:14:11 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:14:24 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:14:37 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:14:50 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:15:03 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:15:16 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:15:29 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:15:42 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:15:55 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:16:08 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:16:21 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:16:34 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:16:47 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:17:00 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:21:26 | INFO     | src.pipeline | Pipeline started | source: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/videos/sample_crowd.mp4
+2026-07-19 23:21:26 | INFO     | __main__ | Starting dashboard at http://0.0.0.0:5001
+2026-07-19 23:21:26 | INFO     | src.zones | Loaded 2 zones from /Users/macuser/Project/Evacuation/EVAC-OS-better/data/zones.json
+2026-07-19 23:21:26 | WARNING  | src.detection | Fine-tuned weights not found at: /Users/macuser/Project/Evacuation/EVAC-OS-better/models/yolov8_person.pt
+Falling back to pretrained: yolov8n.pt
+2026-07-19 23:21:26 | INFO     | src.detection | PersonDetector ready | conf=0.25 | iou=0.5
+2026-07-19 23:21:26 | INFO     | src.tracking | PersonTracker (ByteTrack) ready | threshold=0.25 | buffer=30 frames
+2026-07-19 23:21:26 | INFO     | src.features | CSV logging → /Users/macuser/Project/Evacuation/EVAC-OS-better/data/logs/features_log.csv
+2026-07-19 23:21:26 | INFO     | src.features | CSV logging → /Users/macuser/Project/Evacuation/EVAC-OS-better/data/logs/global_features_log.csv
+2026-07-19 23:21:26 | INFO     | src.features | FeatureExtractor ready | frame=2320x1080 | zones=2 | csv_logging=True
+2026-07-19 23:21:26 | WARNING  | src.congestion | LSTM model files missing: ['model']
+  Run the Phase 6 Colab notebook to train the model.
+  Falling back to rule-based congestion status.
+2026-07-19 23:21:26 | INFO     | src.pathplanning | Venue graph loaded: /Users/macuser/Project/Evacuation/EVAC-OS-better/data/venue_graph.json
+  Nodes : 7 (exit_left, zone_left, corridor_left, center, corridor_right, zone_right, exit_right)
+  Edges : 6
+2026-07-19 23:21:26 | INFO     | src.pipeline | Pipeline components initialized | frame=2320x1080
+2026-07-19 23:21:40 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:21:53 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:22:06 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:22:19 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:22:32 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:22:45 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:22:58 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:23:11 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:23:24 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:23:37 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:23:50 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:24:03 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:24:16 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:24:28 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:24:41 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:24:54 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:25:07 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:25:20 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:25:33 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:25:46 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:25:59 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:26:12 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:26:25 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:26:38 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:26:51 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:27:04 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:27:17 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:27:30 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:27:43 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:27:56 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:28:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:28:22 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:28:35 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:28:48 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:29:02 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:29:15 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:29:28 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:29:41 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:29:54 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:30:07 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:30:20 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:30:33 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:30:46 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:30:59 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:31:12 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:31:25 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:31:38 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:31:51 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:32:04 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:32:17 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:32:30 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:32:43 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:32:56 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:33:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:33:23 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:33:36 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:33:49 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:34:02 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:34:15 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:34:28 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:34:41 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:34:54 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:35:07 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:35:20 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:35:33 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:35:46 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:35:59 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:36:12 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:36:25 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:36:38 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:36:51 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:37:04 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:37:17 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:37:30 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:37:43 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:37:56 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:38:09 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:38:22 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:38:36 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:38:49 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:39:02 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:39:15 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:39:28 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:39:41 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:39:54 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:40:07 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:40:20 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:40:33 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:40:47 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:41:00 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:41:13 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:41:26 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:41:39 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:41:52 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:42:05 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:42:18 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:42:31 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:42:44 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:42:57 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:43:10 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:43:23 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:43:36 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:43:49 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:44:02 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:44:15 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:44:28 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:44:41 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:44:54 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:45:07 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:45:20 | INFO     | src.pipeline | Video ended — looping
+2026-07-19 23:45:33 | INFO     | src.pipeline | Video ended — looping
